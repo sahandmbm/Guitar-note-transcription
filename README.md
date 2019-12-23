@@ -3,7 +3,18 @@ This python projects can listen to guitar songs and estimate the notes in it.
 #CREATED BY SAHAND SHAHRIARI
 
 ------ install dependencies ------
+pip install librosa
+pip install numpy scipy matplotlib ipython jupyter pandas sympy nose
+pip install scipy 
+pip install matplotlib
+pip install sounddevice
+pip install audiolazy
+pip install pyaudio
+pip install pysndfx
+pip install python_speech_features
+
 ------ run MAIN.py ------
+python3 MAIN.py
 
 you can choose to record or use the files in the project
 please note the application will run 'file.wav' so if you want to add excisting songs change the name to file
