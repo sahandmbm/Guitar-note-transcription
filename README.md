@@ -4,7 +4,7 @@ This python projects can listen to guitar songs and estimate the notes in it.
 
 ------ install dependencies ------
 pip install librosa
-pip install numpy scipy matplotlib ipython jupyter pandas sympy nose
+pip install numpy
 pip install scipy 
 pip install matplotlib
 pip install sounddevice
@@ -12,6 +12,7 @@ pip install audiolazy
 pip install pyaudio
 pip install pysndfx
 pip install python_speech_features
+pip install sox
 
 ------ run MAIN.py ------
 python3 MAIN.py
